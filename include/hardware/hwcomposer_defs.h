@@ -191,7 +191,8 @@ enum {
 #ifdef QCOM_HARDWARE
     HWC_DISPLAY_VIRTUAL     = 2,    // WFD etc.
 #endif
-    HWC_NUM_DISPLAY_TYPES
+    HWC_NUM_PHYSICAL_DISPLAY_TYPES = 2,
+    HWC_NUM_DISPLAY_TYPES          = 3,
 };
 
 enum {
